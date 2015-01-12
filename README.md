@@ -18,6 +18,7 @@ add them to the lists in same format of dmenu_emoticons.sh
 ## bugs / problems
 - font doesnt show some emoticons i have not found best one yet
 - some emoticons break bash i dont know why i try to avoid them
+- it uses middle click paste so wont work when thats unsupported
 
 ## thanks to
 - http://japaneseemoticons.net/ for most emoticons used here
