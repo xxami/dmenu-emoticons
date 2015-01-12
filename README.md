@@ -10,6 +10,7 @@
 - xclip - sudo apt-get install xclip
 - xdotool - sudo apt-get install xdotool
 - dmenu xft patch - http://tools.suckless.org/dmenu/patches/xft
+- ja_JP.utf8 in locale -a (or edit dmenu_emoticons.sh)
 
 ## how to add own emoticons
 add them to the lists in same format of dmenu_emoticons.sh
