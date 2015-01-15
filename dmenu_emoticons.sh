@@ -221,7 +221,8 @@ for (( ; ; )) ; do
 	# put the choosed emnote on the screen! yay :)
 	if [[ ! -z "$_res" ]] ; then
 		echo "$_res" | xclip
-		xdotool mousemove_relative 0 0 click 2
+		xdotool type "$(xclip -o)"
+		#xdotool mousemove_relative 0 0 click 2
 		break
 	fi
 done
