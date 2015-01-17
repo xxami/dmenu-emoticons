@@ -220,7 +220,7 @@ for (( ; ; )) ; do
 
 	# put the choosed emnote on the screen! yay :)
 	if [[ ! -z "$_res" ]] ; then
-		clipboard $_res &
+		clipboard "$_res" &
 		sleep 0.1
 		xdotool key shift+Insert
 		break
