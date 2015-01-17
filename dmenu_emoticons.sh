@@ -1,6 +1,6 @@
 
 # dmenu emoticon selection
-# depends: dmenu, xclip and xdotool
+# depends: dmenu + xft patch, xdotool, http://p.rdw.se/clipboard.vala
 # most emoticons used here found: http://japaneseemoticons.net/ (thanks!)
 #
 # ok! :)
@@ -220,9 +220,9 @@ for (( ; ; )) ; do
 
 	# put the choosed emnote on the screen! yay :)
 	if [[ ! -z "$_res" ]] ; then
-		echo "$_res" | xclip
-		xdotool type "$(xclip -o)"
-		#xdotool mousemove_relative 0 0 click 2
+		clipboard $_res &
+		sleep 0.1
+		xdotool key shift+Insert
 		break
 	fi
 done
