@@ -7,10 +7,12 @@
 
 ## what it needs to install
 - dmenu 4.5 - http://tools.suckless.org/dmenu/
-- xclip - sudo apt-get install xclip
+- clipboard.vala - http://p.rdw.se/clipboard.vala by
+  [slaeshjag](http://github.com/slaeshjag/)
 - xdotool - sudo apt-get install xdotool
 - dmenu xft patch - http://tools.suckless.org/dmenu/patches/xft
 - ja_JP.utf8 in locale -a (or edit dmenu_emoticons.sh)
+- suitable japanese font (fonts-mona used by default)
 
 ## how to add own emoticons
 add them to the lists in same format of dmenu_emoticons.sh
@@ -21,4 +23,5 @@ add them to the lists in same format of dmenu_emoticons.sh
 
 ## thanks to
 - http://japaneseemoticons.net/ for most emoticons used here
-- friends who helped me with problems i had (slaeshjag & lodysama) :)
+- thank yuu to slaeshjag for clipboard.vala and help
+- thank yuu to lodysama for linux help
