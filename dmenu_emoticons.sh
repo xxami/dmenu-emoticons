@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # dmenu emoticon selection
 # depends: dmenu + xft patch, xdotool, http://p.rdw.se/clipboard.vala
