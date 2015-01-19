@@ -1,7 +1,7 @@
 # dmenu_emoticons
 
 ## how does it work
-1. bind "bash /path/to/dmenu_emoticons.sh" in window manager
+1. bind "bash /path/to/dmenu_emoticons" in window manager
 2. choose an emoticon that dmenu show
 3. select it and it will be copied and pasted into the active program
 
@@ -11,11 +11,11 @@
   [slaeshjag](http://github.com/slaeshjag/)
 - xdotool - sudo apt-get install xdotool
 - dmenu xft patch - http://tools.suckless.org/dmenu/patches/xft
-- ja_JP.utf8 in locale -a (or edit dmenu_emoticons.sh)
+- ja_JP.utf8 in locale -a (or edit dmenu_emoticons)
 - suitable japanese font (fonts-mona used by default)
 
 ## how to add own emoticons
-add them to the lists in same format of dmenu_emoticons.sh
+add them to the lists in same format of dmenu_emoticons
 
 ## bugs / problems
 - font doesnt show some emoticons i have not found best one yet
